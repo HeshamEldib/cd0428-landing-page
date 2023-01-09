@@ -18,6 +18,10 @@ body {
     color: #fff;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* Typeography General*/
 h1 {
@@ -95,6 +99,20 @@ section {
     top: 0;
     width: 100%;
     z-index: 5;
+}
+
+/* Navigation Styles */
+#navbar__list li a {
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+#navbar__list li a:hover,
+#navbar__list li a.active {
+    background-color: black;
+    color: white;
 }
 
 /* Footer Styles */
